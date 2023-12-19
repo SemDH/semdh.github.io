@@ -21,23 +21,23 @@ google_ad_client:
 post_limit: 5
 
 
-title : Helium Jekyll
-tagline: Bootstrap 4 UI kit for jekyll
+title : SemDH 2024
+tagline: First International Workshop of Semantic Digital Humanities
 author : 
-  name : Antonio Trento
-  site: https://lantoniotrento.github.io
-  description : I&#39;m a web master interested in communication applied to web marketing.
+  name : 
+  site: https://semdh.github.io
+  description : Website of the first International Workshop of Semantic Digital Humanities
   image : social-image.png
-  email : lantoniotrento@gmail.com
-  github : antoniotrento
-  twitter : lantoniotrento
-  facebook: lantoniotrento
-  linkedin: antoniotrento
-  instagram: lantoniotrento
-  pinterest: antoniotrento
-  feedburner : 
+  email : 
+  github : semdh
+  twitter : SemDHWorkshop
+  #facebook: lantoniotrento
+  #linkedin: antoniotrento
+  #instagram: lantoniotrento
+  #pinterest: antoniotrento
+  #feedburner : 
 
-twitter_username: lantoniotrento
+twitter_username: SemDHWorkshop
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
@@ -85,7 +85,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : /Users/tabeatietz/Documents/FIZ/SemDH/semdh.github.io/assets
+  ASSET_PATH : https://semdh.github.io/assets/
   #ASSET_PATH : https://semdh.github.io/assets/themes/bootstrap
 
 
