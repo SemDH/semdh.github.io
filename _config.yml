@@ -2,40 +2,40 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: ['.rvmrc', '.rbenv-version', 'README.md', 'Rakefile', 'changelog.md']
+include: ['pages']
 highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
-excerpt_separator: "<!--more-->"
+excerpt_separator: '<!--more-->'
 url: https://semdh.github.io
-baseurl: "/semdh.github.io"
+baseurl: '/semdh.github.io'
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
-data-ad-slot: 
-data-ad-client: 
-google_ad_client: 
+data-ad-slot:
+data-ad-client:
+google_ad_client:
 
 post_limit: 5
 
-
-title : SemDH 2024
+title: SemDH 2024
 tagline: First International Workshop of Semantic Digital Humanities
-author : 
-  name : 
+author:
+  name:
   site: https://semdh.github.io
-  description : Website of the first International Workshop of Semantic Digital Humanities
-  image : social-image.png
-  email : 
-  github : semdh
-  twitter : SemDHWorkshop
+  description: Website of the first International Workshop of Semantic Digital Humanities
+  image: social-image.png
+  email:
+  github: semdh
+  twitter: SemDHWorkshop
   #facebook: lantoniotrento
   #linkedin: antoniotrento
   #instagram: lantoniotrento
   #pinterest: antoniotrento
-  #feedburner : 
+  #feedburner :
 
 twitter_username: SemDHWorkshop
 # The production_url is only used when full-domain names are needed
@@ -46,12 +46,12 @@ twitter_username: SemDHWorkshop
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://semdh.github.io/
+production_url: https://semdh.github.io/
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
-JB :
-  version : 0.3.0
+JB:
+  version: 0.3.0
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
@@ -85,33 +85,32 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : https://semdh.github.io/assets/
+  ASSET_PATH: https://semdh.github.io/assets/
   #ASSET_PATH : https://semdh.github.io/assets/themes/bootstrap
-
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  # archive_path: /archive.html
+  # categories_path: /categories.html
+  tags_path: /tags.html
+  atom_path: /atom.xml
+  rss_path: /rss.xml
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
-  comments :
-    provider : disqus
-    disqus : 
-      short_name : jeky-new-age
-    #livefyre :
-    #  site_id : 
-    #intensedebate :
-    #  account : 
-    #facebook :
-    #  appid :
+  comments:
+    provider: disqus
+    disqus:
+      short_name: jeky-new-age
+      #livefyre :
+      #  site_id :
+      #intensedebate :
+      #  account :
+      #facebook :
+      #  appid :
       num_posts: 5
       width: 580
       colorscheme: light
@@ -120,25 +119,25 @@ JB :
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #
-  analytics :
-    provider : google
-    google :
-        tracking_id : 
-    getclicky :
-      site_id :
-    mixpanel :
-        token : 
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
+  analytics:
+    provider: google
+    google:
+      tracking_id:
+    getclicky:
+      site_id:
+    mixpanel:
+      token:
+    piwik:
+      baseURL: 'myserver.tld/piwik' # Piwik installation address (without protocol)
+      idsite: '1' # the id of the site on Piwik
 
   # Settings for sharing helper.
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #
-  sharing :
-    provider : false
+  sharing:
+    provider: false
 
   # Settings for all other include helpers can be defined by creating
   # a hash with key named for the given helper. ex:
