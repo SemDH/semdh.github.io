@@ -1,6 +1,53 @@
 ---
 ---
 
+h1 {
+  font-size: 3rem !important;
+  color: white;
+}
+
+h2 {
+  font-size: 2.25rem !important;
+  color: white;
+}
+
+h5 {
+  font-size: 1.5rem !important;
+  color: white;
+  font-style: italic;
+}
+
+.carousel-inner {
+  height: auto;
+}
+
 .fa-check {
-  color: darkgray !important;
+  color: black !important;
+}
+
+.main-title {
+  margin-bottom: 3rem;
+}
+
+.secondary-title {
+  margin-bottom: 3rem;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar-button {
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
 }
