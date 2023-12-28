@@ -2,37 +2,50 @@
 layout: index
 title: SemDH Workshop
 tagline: co-located with ESWC 2024
-css: 
+css:
 js: sliders.js
 keywords: helium, jekyll, bootstrap, UI, kit
 canonical: https://semdh.github.io
 ---
+
 {% include JB/setup %}
-
-
+<link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/custom.css" />
 <!-- Content Area Start -->
-    <div id="content">
-      <div id="sliders">
-        <div class="full-width">
-          <div id="light-slider" class="carousel slide">
-            <div id="carousel-area">
-              <div id="carousel-slider" class="carousel slide" data-ride="carousel">
-                <!-- <ol class="carousel-indicators">
+<div id="content">
+  <div id="sliders">
+    <div class="full-width">
+      <div id="light-slider" class="carousel slide">
+        <div id="carousel-area">
+          <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+            <!-- <ol class="carousel-indicators">
                   <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
                   <li data-target="#carousel-slider" data-slide-to="1"></li>
                   <li data-target="#carousel-slider" data-slide-to="2"></li>
                 </ol> -->
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <img src="{{ BASE_PATH }}/assets/images/slider/greece-blue.png" alt="">
-                    <div class="carousel-caption">
-                      <h3 class="slide-title animated fadeInDown"><span class="text-secondary">SemDH 2024</span></h3>
-                      <h3 class="slide-text animated fadeIn">First International Workshop of Semantic Digital Humanities</h3>
-                      <h5 class="slide-text animated fadeIn">co-located with ESWC 2024 in Hersonissos, Greece</h5>
-                    </div>
-                  </div>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img
+                  src="{{ BASE_PATH }}/assets/images/slider/greece-blue.png"
+                  alt=""
+                />
+                <div class="carousel-caption">
+                  <h1 class="main-title slide-title animated fadeInDown">
+                    SemDH 2024
+                  </h1>
+                  <h2 class="secondary-title slide-text animated fadeIn">
+                    First International Workshop of Semantic Digital Humanities
+                  </h2>
+                  <h5 class="slide-text animated fadeIn">
+                    co-located with
+                    <a href="https://2024.eswc-conferences.org/">ESWC 2024</a>
+                  </h5>
+                  <h5 class="slide-text animated fadeIn">
+                    Hersonissos, Greece
+                  </h5>
                 </div>
-                <!-- <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+              </div>
+            </div>
+            <!-- <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
                   <span class="carousel-control carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
@@ -40,173 +53,252 @@ canonical: https://semdh.github.io
                   <span class="carousel-control carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a> -->
-              </div>
-            </div>
           </div>
         </div>
-      </div>  
-      <!-- End sliders -->
-                        
-            
-      <div class="mb-60"></div>
+      </div>
+    </div>
+  </div>
+  <!-- End sliders -->
+
+  <div class="mb-60"></div>
   <div id="features" class="container">
     <h4 class="sub-title space-left">Aim and Scope of the Workshop</h4>
-            <p class="lead">Exploration, analysis, and preservation of the rich cultural and historical tapestry of the world are essential for our understanding of humanity's past and shaping our future. In recent years, there has been increased interest in the creation and application of Ontologies, Knowledge Graphs, and other Semantic Web Technologies within Cultural Heritage (CH) and Digital Humanities (DH). However, to date, the distinct areas of expertise, methodologies and traditions across the fields have led to a noticeable gap between tech solutions and humanities’ needs. <br>
-            <br>
-            The aim of SemDH 2024 is to bridge this division and encourage closer collaboration and networking across diverse fields. To accomplish this goal, we invite all members of Semantic Web, CH and DH communities actively involved in the development of systematic approaches and advanced technologies for handling heterogeneous, diverse and challenging humanities data. This includes, but is not limited to, constructing and utilizing of knowledge graphs for the humanities, extracting and representing knowledge from historical texts, data linking across disciplines, enriching semantics of historical records and biographies, analyzing social networks, ontology adoption, extension and evaluation for specific domains. In addition, it includes the exploitation of recent technologies, e.g. LLM(s), in the context of semantic technologies, to tackle the diverse challenges associated with working with historical data. We welcome presentations that not only focus on technological endeavours but also explore the analysis of CH and DH data landscape through the perspective of philosophical, historical, social, and other research questions. </p>
-      <div class="mb-60"></div>
+    <p class="lead">
+      Exploration, analysis, and preservation of the rich cultural and
+      historical tapestry of the world are essential for our understanding of
+      humanity's past and shaping our future. In recent years, there has been
+      increased interest in the creation and application of Ontologies,
+      Knowledge Graphs, and other Semantic Web Technologies within Cultural
+      Heritage (CH) and Digital Humanities (DH). However, to date, the distinct
+      areas of expertise, methodologies and traditions across the fields have
+      led to a noticeable gap between tech solutions and humanities’ needs.
+      <br />
+      <br />
+      The aim of SemDH 2024 is to bridge this division and encourage closer
+      collaboration and networking across diverse fields. To accomplish this
+      goal, we invite all members of Semantic Web, CH and DH communities
+      actively involved in the development of systematic approaches and advanced
+      technologies for handling heterogeneous, diverse and challenging
+      humanities data. This includes, but is not limited to, constructing and
+      utilizing of knowledge graphs for the humanities, extracting and
+      representing knowledge from historical texts, data linking across
+      disciplines, enriching semantics of historical records and biographies,
+      analyzing social networks, ontology adoption, extension and evaluation for
+      specific domains. In addition, it includes the exploitation of recent
+      technologies, e.g. LLM(s), in the context of semantic technologies, to
+      tackle the diverse challenges associated with working with historical
+      data. We welcome presentations that not only focus on technological
+      endeavours but also explore the analysis of CH and DH data landscape
+      through the perspective of philosophical, historical, social, and other
+      research questions.
+    </p>
+    <div class="mb-60"></div>
+  </div>
+
+  <div class="container">
+    <h4 class="sub-title space-left">Workshop Topics</h4>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <ul class="list-style check-list pl-0">
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i>
+            Fundamental Concepts and Questions in Digital Humanities (DH)
+            Research
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i>
+            Vocabulary, Schema, Ontology Development and Design Methodologies in
+            DH
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i>
+            Application of Formal Ontologies (UFO, BFO, etc.) in DH
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i> Practical
+            Use of Standard Ontologies (CIDOC-CRM, FRBR) in DH: Case Studies,
+            Challenges and Lessons Learnt
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i>
+            Harmonization of established standards like TEI, MEI, LIDO and
+            Ontologies
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i>
+            Philosophical and Sociological Analysis of DH Models and Modeling
+            Practices
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i> Social
+            Studies on Ontology Standardization Policies in DH
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i> Temporal
+            Knowledge Graphs in Context of DH
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i> Semantic
+            Web Applications for DH
+          </li>
+        </ul>
       </div>
-
-            <div class="container">
-        <h4 class="sub-title space-left">Workshop Topics</h4>
-        <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6">
-         <ul class="list-style check-list pl-0">
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Fundamental Concepts and Questions in Digital Humanities (DH) Research
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Vocabulary, Schema, Ontology Development and Design Methodologies in DH
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Application of Formal Ontologies (UFO, BFO, etc.) in DH
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Practical Use of Standard Ontologies (CIDOC-CRM, FRBR) in DH: Case Studies, Challenges and Lessons Learnt
-
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Harmonization of established standards like TEI, MEI, LIDO and Ontologies
-
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Philosophical and Sociological Analysis of DH Models and Modeling Practices
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Social Studies on Ontology Standardization Policies in DH
-                  </li>
-                  <li>
-                  <i class="fa fa-check light-green" aria-hidden="true"></i> Temporal Knowledge Graphs in Context of DH
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Semantic Web Applications for DH
-                  </li>
-                </ul>
-              </div>
-        <div class="col-xs-12 col-sm-6 col-md-6">
-         <ul class="list-style check-list pl-0">
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Software Architectures, Structural Frameworks and Infrastructures for DH KGs
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Interoperability and Linking in DH
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Application of FAIR Principles and KG-based Data Curation Strategies in DH
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> (Automated) Construction of Knowledge Graphs for DH
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Searching, Querying, and Visualization of DH Knowledge Graphs
-
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Natural Language Processing (NLP) for Knowledge Extraction in DH Research
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Workflows and Tools for Knowledge Extraction in DH, e.g. Crowdsourcing
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Access Management, Trust and Provenance in the DH context
-                  </li>
-                  <li>
-                    <i class="fa fa-check light-green" aria-hidden="true"></i> Evaluation of DH Ontologies and KGs: Methods, Metrics and Criteria
-                  </li>
-                </ul>
-              </div>
-            </div>
-
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <ul class="list-style check-list pl-0">
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i> Software
+            Architectures, Structural Frameworks and Infrastructures for DH KGs
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i>
+            Interoperability and Linking in DH
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i>
+            Application of FAIR Principles and KG-based Data Curation Strategies
+            in DH
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i>
+            (Automated) Construction of Knowledge Graphs for DH
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i>
+            Searching, Querying, and Visualization of DH Knowledge Graphs
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i> Natural
+            Language Processing (NLP) for Knowledge Extraction in DH Research
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i> Workflows
+            and Tools for Knowledge Extraction in DH, e.g. Crowdsourcing
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i> Access
+            Management, Trust and Provenance in the DH context
+          </li>
+          <li>
+            <i class="fa fa-check light-green" aria-hidden="true"></i>
+            Evaluation of DH Ontologies and KGs: Methods, Metrics and Criteria
+          </li>
+        </ul>
       </div>
+    </div>
+  </div>
 
-      
-      <div class="mb-60"></div>
-   <div class="container">
-        {% include ads-block.html %}
-   </div>    
-      <div class="mb-60"></div> 
-      <div id="counter">
-        <div class="container">
-          <h4 id="dates" class="sub-title" class="text-secondary">Important Dates</h4>
-          <div class="row count-to-sec">
-            <div class="col-md-3 col-sm-6 count-one">
-              <span class="icon"><i class="fa fa-paper-plane"> </i></span>
-              <h3 class="timer count-value" data-to="561" data-speed="1000">March 7, 2024</h3>
-              <hr class="width25-divider">
-              <small class="count-title">Submission Deadline</small>
-            </div>
+  <div class="mb-60"></div>
+  <div class="container">{% include ads-block.html %}</div>
+  <div class="mb-60"></div>
+  <div id="counter">
+    <div class="container">
+      <h4 id="dates" class="sub-title" class="text-secondary">
+        Important Dates
+      </h4>
+      <div class="row count-to-sec">
+        <div class="col-md-3 col-sm-6 count-one">
+          <span class="icon"><i class="fa fa-paper-plane"> </i></span>
+          <h3 class="timer count-value" data-to="561" data-speed="1000">
+            March 7, 2024
+          </h3>
+          <hr class="width25-divider" />
+          <small class="count-title">Submission Deadline</small>
+        </div>
 
-            <div class="col-md-3 col-sm-6 count-one">
-              <span class="icon"><i class="fa fa-star"> </i></span>
-              <h3 class="timer count-value" data-to="950" data-speed="1000">April 4, 2024</h3>
-              <hr class="width25-divider">
-              <small class="count-title">Author Notification</small>
-            </div>
+        <div class="col-md-3 col-sm-6 count-one">
+          <span class="icon"><i class="fa fa-star"> </i></span>
+          <h3 class="timer count-value" data-to="950" data-speed="1000">
+            April 4, 2024
+          </h3>
+          <hr class="width25-divider" />
+          <small class="count-title">Author Notification</small>
+        </div>
 
-            <div class="col-md-3 col-sm-6 count-one">
-              <span class="icon"><i class="fa fa-check"> </i></span>
-              <h3 class="timer count-value" data-to="978" data-speed="1000">April 18, 2024</h3>
-              <hr class="width25-divider">
-              <small class="count-title">Camera Ready Versions</small>
-            </div>
+        <div class="col-md-3 col-sm-6 count-one">
+          <span class="icon"><i class="fa fa-check"> </i></span>
+          <h3 class="timer count-value" data-to="978" data-speed="1000">
+            April 18, 2024
+          </h3>
+          <hr class="width25-divider" />
+          <small class="count-title">Camera Ready Versions</small>
+        </div>
 
-            <div class="col-md-3 col-sm-6 count-one">
-              <span class="icon"><i class="fa fa-heart"> </i></span>
-              <h3 class="timer count-value" data-to="1700" data-speed="1000">May 26 or 27, 2024</h3>
-              <hr class="width25-divider">
-              <small class="count-title">Workshop</small>
-            </div>
-          </div>
-          <h5 class="text-primary text-center">All deadlines are 23:59 anywhere on earth (UTC-12).</h5>
+        <div class="col-md-3 col-sm-6 count-one">
+          <span class="icon"><i class="fa fa-heart"> </i></span>
+          <h3 class="timer count-value" data-to="1700" data-speed="1000">
+            May 26 or 27, 2024
+          </h3>
+          <hr class="width25-divider" />
+          <small class="count-title">Workshop</small>
         </div>
       </div>
+      <h5 class="text-primary text-center">
+        All deadlines are 23:59 anywhere on earth (UTC-12).
+      </h5>
+    </div>
+  </div>
 
-          <div class="header-style-2">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <div class="hero-content-v2">
-                <h3><strong>Submissions</strong></h3>
-                <p> Workshop submissions must be written in English and formatted in the CEUR-WS.org proceedings style, single column format. All papers and abstracts have to be submitted electronically via EasyChair. Each accepted paper needs to be presented by one of the authors, who agrees to register and participate in SemDH2024.
-                </p>
-                <a href="https://easychair.org/conferences/?conf=semdh2024" class="page-scroll btn btn-lg btn-default-filled">Submit</a>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <figure>
-               <img src="{{ BASE_PATH }}/assets/images/submission-color2.png" alt="">
-              </figure>
-            </div>
+  <div class="header-style-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="hero-content-v2">
+            <h3><strong>Submissions</strong></h3>
+            <p>
+              Workshop submissions must be written in English and formatted in
+              the CEUR-WS.org proceedings style, single column format. All
+              papers and abstracts have to be submitted electronically via
+              EasyChair. Each accepted paper needs to be presented by one of the
+              authors, who agrees to register and participate in SemDH2024.
+            </p>
+            <a
+              href="https://easychair.org/conferences/?conf=semdh2024"
+              class="page-scroll btn btn-lg btn-default-filled"
+              >Submit</a
+            >
           </div>
         </div>
+        <div class="col-xs-12 col-sm-6">
+          <figure>
+            <img
+              src="{{ BASE_PATH }}/assets/images/submission-color2.png"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="mb-60"></div>
+  </div>
+
+  <div class="mb-60"></div>
+
+  <div id="features" class="container">
+    <h4 id="attend" class="sub-title space-left">How to Attend</h4>
+    <div class="row">
+      <div class="col-xs-12 col-sm-2 col-md-2">
+        <img
+          src="{{ BASE_PATH }}/assets/images/ESWC24-logo.png"
+          class="align-middle"
+        />
+      </div>
+      <div class="col-xs-12 col-sm-10 col-md-10">
+        <p class="lead">
+          SemDH is an on-site event taking place on May 26 or May 27, 2024 in
+          Hersonissos, Crete (Greece). The workshop is co-located with the 21st
+          Extended Semantic Web Conference. ESWC is a major venue for discussing
+          the latest scientific results and technology innovations around
+          semantic technologies. Building on its past success, ESWC is seeking
+          to broaden its focus to span other relevant related research areas in
+          which Web semantics plays an important role. All workshop participants
+          must register at ESWC to attend. Please have a look at the official
+          <a href="https://2024.eswc-conferences.org/">ESWC 2024</a> webpage for
+          detailed information on the conference, program, venue and
+          registration.
+        </p>
         <div class="mb-60"></div>
       </div>
-
-      
-
-            <div class="mb-60"></div>
-
-      <div id="features" class="container">
-            <h4 id="attend" class="sub-title space-left">How to Attend</h4>
-          <div class="row">
-            <div class="col-xs-12 col-sm-2 col-md-2">
-               <img src="{{ BASE_PATH }}/assets/images/ESWC24-logo.png" class="align-middle">
-            </div>
-            <div class="col-xs-12 col-sm-10 col-md-10">
-            <p class="lead">SemDH is an on-site event taking place on May 26 or May 27, 2024 in Hersonissos, Crete (Greece). The workshop is co-located with the 21st Extended Semantic Web Conference. ESWC is a major venue for discussing the latest scientific results and technology innovations around semantic technologies. Building on its past success, ESWC is seeking to broaden its focus to span other relevant related research areas in which Web semantics plays an important role. All workshop participants must register at ESWC to attend. Please have a look at the official <a href="https://2024.eswc-conferences.org/">ESWC 2024</a> webpage for detailed information on the conference, program, venue and registration.</p>
-          <div class="mb-60"></div>
-          </div>
-          <div class="mb-60"></div>
-      </div> 
-      
+      <div class="mb-60"></div>
+    </div>
+  </div>
 </div>
