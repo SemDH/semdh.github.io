@@ -27,10 +27,9 @@ h5 {
   font-style: italic;
 }
 
-.pink {
-  font-size: 1.5rem !important;
+h6 {
+  font-size: 1.3rem !important;
   color: #eb5b73;
-  font-style: italic;
 }
 
 .carousel-inner {
