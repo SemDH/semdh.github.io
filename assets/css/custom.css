@@ -29,7 +29,7 @@ h5 {
 
 h6 {
   font-size: 1.3rem !important;
-  color: #eb5b73;
+  color: #eb5b73 !important;
 }
 
 .carousel-inner {
