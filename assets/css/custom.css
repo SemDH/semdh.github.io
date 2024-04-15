@@ -36,14 +36,14 @@ h6 {
 .btn-papers:active,
 .btn-papers:focus {
     color: black;
-    border: 1px solid #999;
+    border: 2px solid #999;
     background: white 
 }
 
 .btn-papers:hover {
     color: white;
     background: #eb5b73;
-    border: 1px solid #eb5b73
+    border: 2px solid #eb5b73
 }
 
 .carousel-inner {
