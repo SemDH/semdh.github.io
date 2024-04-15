@@ -40,6 +40,10 @@ h6 {
   color: black !important;
 }
 
+.xl {
+    font-size: 18px !important;
+}
+
 .main-title {
   margin-bottom: 3rem;
 }
