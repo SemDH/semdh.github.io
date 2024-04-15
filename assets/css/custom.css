@@ -32,6 +32,20 @@ h6 {
   color: #eb5b73 !important;
 }
 
+.btn-papers,
+.btn-papers:active,
+.btn-papers:focus {
+    color: black;
+    border: 2px solid #999;
+    background: transparent
+}
+
+.btn-papers:hover {
+    color: #fff;
+    background: #999;
+    border: 2px solid #999
+}
+
 .carousel-inner {
   height: auto;
 }
