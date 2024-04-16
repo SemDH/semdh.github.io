@@ -40,6 +40,10 @@ h6 {
     background: white 
 }
 
+.std-btn-papers {
+    margin-bottom: 10px
+}
+
 .btn-papers:hover {
     color: white;
     background: #eb5b73;
