@@ -204,6 +204,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: -400px;
+  border-top: 2px solid #7c7c7c;
 }
 th,
 td {
