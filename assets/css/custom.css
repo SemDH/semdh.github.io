@@ -203,6 +203,7 @@ h6 {
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-bottom: -400px;
 }
 th,
 td {
@@ -247,7 +248,7 @@ td {
 }
 .hour {
   background-color: #ffffff; /* Light grey background for hours */
-  white-space: nowrap;
+  /* white-space: nowrap; */
   font-style: italic;
   font-size: medium;
   text-align: center;
