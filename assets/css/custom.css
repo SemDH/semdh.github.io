@@ -261,7 +261,7 @@ td {
 .cat {
   font-weight: bold; /* Bold font for category names */
   text-align: center;
-  font-size: large;
+  font-size: medium;
 }
 /* Add more space between sessions */
 td {
