@@ -233,7 +233,14 @@ td {
 }
 
 .keynote {
-  background-color: #faad9e; /* Light green background for keynotes */
+  background-color: #e6e9af; /* Light green background for keynotes */
+}
+.keynote-link {
+  text-decoration: underline;
+}
+.keynote-link:visited {
+  color: black;
+  text-decoration: underline;
 }
 .short-paper {
   background-color: #ffe6cc; /* Light peach background for short paper poster sessions */
@@ -244,6 +251,9 @@ td {
   font-style: italic;
   font-size: medium;
   text-align: center;
+}
+.hour-dark {
+  background-color: #f2f2f2; /* Dark grey background for hours */
 }
 .coffee-break {
   background-color: #f2f2f2; /* Dark grey background for hours */
