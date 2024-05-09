@@ -35,19 +35,19 @@ h6 {
 .btn-papers,
 .btn-papers:active,
 .btn-papers:focus {
-    color: black;
-    border: 2px solid #999;
-    background: white 
+  color: black;
+  border: 2px solid #999;
+  background: white;
 }
 
 .std-btn-papers {
-    margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .btn-papers:hover {
-    color: white;
-    background: #eb5b73;
-    border: 2px solid #eb5b73
+  color: white;
+  background: #eb5b73;
+  border: 2px solid #eb5b73;
 }
 
 .carousel-inner {
@@ -55,18 +55,18 @@ h6 {
 }
 
 .card-papers {
-    position: relative;
-    display: block;
-    margin-bottom: 10px;
-    background-color: white;
-    border-radius: 0;
-    border: 0;
-    width: 100%
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+  width: 100%;
 }
 
 .card-text-papers {
-    font-size: 16px;
-    color: #444
+  font-size: 16px;
+  color: #444;
 }
 
 .fa-check {
@@ -74,13 +74,13 @@ h6 {
 }
 
 .xl {
-    font-size: 18px !important;
-    margin-bottom: 1px !important
+  font-size: 18px !important;
+  margin-bottom: 1px !important;
 }
 
 .l {
-    font-size: 16px !important;
-    margin-bottom: 5px !important
+  font-size: 16px !important;
+  margin-bottom: 5px !important;
 }
 
 .main-title {
@@ -199,4 +199,62 @@ h6 {
   min-width: 3rem;
   border-radius: 6.25rem;
   opacity: 0.5;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px; /* Increased padding for better spacing */
+  text-align: left;
+  border-bottom: 2px solid #7c7c7c; /* Thicker line between slots */
+}
+/* Different slot styles */
+.full-paper-cat {
+  background-color: #fbc8b1; /* Light red background for full paper categories */
+}
+/* Different slot styles as alternated hues of the category color */
+.full-paper:nth-child(odd) {
+  background-color: #fef1ec;
+}
+.full-paper:nth-child(even) {
+  background-color: #fde3d8;
+}
+
+.short-paper-cat {
+  background-color: #cbeaf6; /* Light peach background for short paper categories */
+}
+.short-paper:nth-child(odd) {
+  background-color: #eef8fc;
+}
+.short-paper:nth-child(even) {
+  background-color: #dcf1f9;
+}
+
+.keynote {
+  background-color: #faad9e; /* Light green background for keynotes */
+}
+.short-paper {
+  background-color: #ffe6cc; /* Light peach background for short paper poster sessions */
+}
+.hour {
+  background-color: #ffffff; /* Light grey background for hours */
+  white-space: nowrap;
+  font-style: italic;
+  font-size: medium;
+  text-align: center;
+}
+.coffee-break {
+  background-color: #f2f2f2; /* Dark grey background for hours */
+}
+.cat {
+  font-weight: bold; /* Bold font for category names */
+  text-align: center;
+  font-size: large;
+}
+/* Add more space between sessions */
+td {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
