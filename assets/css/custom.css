@@ -50,6 +50,10 @@ h6 {
   border: 2px solid #eb5b73;
 }
 
+.btn-sponsor {
+
+}
+
 .carousel-inner {
   height: auto;
 }
@@ -269,4 +273,35 @@ td {
 td {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+figure {
+    display: inline-block
+}
+
+.hero-content-v2-sponsor {
+  margin-top: 0;
+  margin-bottom: 40px; 
+}
+
+.hero-content-v2-sponsor h3 {
+  font-size: 24px;
+  color: #2f3542;
+  font-weight: 400;
+  margin-bottom: 15px; 
+}
+
+.hero-content-v2-sponsor h3 strong {
+  display: block;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 62px;
+  margin-bottom: 25px;
+}
+
+.hero-content-v2-sponsor p {
+  color: #444;
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.6; 
 }
