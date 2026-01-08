@@ -2787,7 +2787,9 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #carousel-area .carousel-item img {
-    width: auto
+    object-fit: cover;      /* or contain */
+    object-position: left center;
+    min-height: 650px; 
 }
 
 #carousel-area .carousel-inner .active {

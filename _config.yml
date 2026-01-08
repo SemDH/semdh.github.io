@@ -30,14 +30,14 @@ author:
   image: social-image.png
   email:
   github: semdh
-  twitter: SemDHWorkshop
+  #twitter: SemDHWorkshop
   #facebook: lantoniotrento
-  #linkedin: antoniotrento
+  linkedin: https://www.linkedin.com/company/106158947/
   #instagram: lantoniotrento
   #pinterest: antoniotrento
   #feedburner :
 
-twitter_username: SemDHWorkshop
+#twitter_username: SemDHWorkshop
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
