@@ -321,7 +321,8 @@ figure {
 .header-style-33 {
     background: url(/assets/images/dubrovnik-large-sponsor.jpg) no-repeat left center;  /* url(/assets/images/sponsor-banner-3.jpg) no-repeat left center; */
     background-size: cover;
-    padding-top: 80px
+    padding-top: 120px ;
+    min-height: 600px;
 }
 
 .header-style-33 .hero-content-v2 h3 {
